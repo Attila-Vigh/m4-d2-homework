@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
 
-const TopNavigaton = ( props ) => {
+const NavigatonTop = ( props ) => {
     return ( 
         <Nav justify variant="tabs" defaultActiveKey="/home">
             <Nav.Item>
@@ -17,4 +17,4 @@ const TopNavigaton = ( props ) => {
      );
 }
  
-export default TopNavigaton;
+export default NavigatonTop;

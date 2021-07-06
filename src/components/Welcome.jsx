@@ -7,10 +7,10 @@ const Welcome = ( props ) => {
         fontWeight: 900,
     }
     return ( 
-        <div class="jumbotron jumbotron-fluid" style={ styleJumbotron }>
-            <div class="container">
-                <h2 class="display-4">Welcome</h2>
-                <p class="lead">Come and get your dreams!</p>
+        <div className="jumbotron jumbotron-fluid" style={ styleJumbotron }>
+            <div className="container">
+                <h2 className="display-4">Welcome</h2>
+                <p className="lead">Come and get your dreams!</p>
             </div>
         </div>
      );
